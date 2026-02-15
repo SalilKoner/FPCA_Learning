@@ -328,7 +328,7 @@ def estimate_pace_scores(
 
 if __name__ == "__main__":
     data = generate_functional_data(
-        n_curves=1200,
+        n_curves=500,
         min_points=8,
         max_points=12,
         lambdas=(1.0, 0.6),
